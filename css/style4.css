@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+body{
+	background:url(../Images/Vintage.jpg);
+	height: auto;
+	background-size: cover;
+}
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+	position: relative;
+	top:11px;
+}
+.loginBox{
+	width: 320px;
+	position: absolute;
+	top: 15%;
+	left: 60%;
+}
+h1{
+	font-size: 40pt;
+	color: white;
+}
+.textBox{
+	width: 100%;
+	font-size: 14pt;
+	padding: 0px 1px;
+	margin: 55px 1px;
+	border-bottom: 1px solid grey;
+}
+.textBox input{
+	background-color: transparent;
+	border-style:none;
+	outline: none;
+	padding: 7px 1px;
+	width: 100%;
+	font-size: 16pt;
+	color: white;
+	margin: 0 10px;
+	top:50%;
+}
+.btn{
+	width: 100%;
+	background-color: transparent;
+	border: groove white;
+	border-radius: 12px;
+	padding: 7px 20px;
+	font-size: 14pt;
+	color: white;
+	text-align: center;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}

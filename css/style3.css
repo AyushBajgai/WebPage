@@ -1,0 +1,81 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+	background-image: url(../Images/sunset.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+ul{
+	list-style:none;
+	float: right;
+	margin-top:-2px;
+
+}
+
+ul li{
+	display: inline;
+}
+
+ul li a{
+	text-decoration: none;						/* (removes underline) */
+	color: white;
+	margin: 5px;								/* (gaps between boxes) */
+	border: groove white;
+	border-radius: 12px;
+	padding: 7px 20px;							/* (top-bottom and left-right) */
+	transition: 0.5s;
+	font-size: 18pt;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;							/* (link color black) */
+}
+
+h1{
+	text-align: center;
+	font-size: 35pt;
+	color: white;
+	line-height: 285px;
+}
+h2{
+	text-align: center;
+	margin-top:-123px;
+	font-size: 23pt;
+	color: gray;
+}
+.logo img{							/* (logo class of img tag) */
+	float: left;
+	width: 200px;
+	height: auto;
+	position: relative;
+	top:11px;
+}
+form{
+	margin-top:60px;
+	position: relative;
+	left: 570px;
+}
+.ctform{
+	width: 650px;
+	background:transparent;
+	border: none;				/* (removes border of form box) */
+	border-bottom: 1px solid;	/* (visible solid line at the bottom) */
+	border-color: white;
+	font-size: 12pt;
+	margin-bottom: 20px;
+}
+input{
+	height: 50px;
+}
+textarea{
+	height: 60px;
+	font-family: arial;
+}
+
+.ctform_submit{
+	border-color: transparent;
+}

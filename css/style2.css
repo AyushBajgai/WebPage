@@ -1,0 +1,79 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Times;
+	background-image: url(../Gallery/img.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.logo img{							/* (logo class of img tag) */
+	float: left;
+	width: 200px;
+	height: auto;
+	position: relative;
+	top:11px;
+}
+
+ul{
+	float: right;
+}
+ul li{
+	list-style-type: none;
+	display: inline;
+}
+ul li a{
+	text-decoration: none;
+	border: solid white;
+	border-radius: 12px;
+	padding: 7px 20px;
+	color: white;
+	font-size: 18pt;
+	margin: 5px;
+}
+ul li a:hover{
+	color: black;
+	background:white;
+}
+
+.txt{
+	font-family: arial;
+	font-size: 32pt;
+	color: white;
+	margin: 0;
+	position: absolute;				/* (Ceneter attributes from here) */
+	text-align:center;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.image{
+	margin: 37px 62px;
+	display: inline-block;			/* (Makes images in line) */
+
+}
+.image img{
+	transition: 0.8s;			/* (Time for loading) */
+	padding: 0px;
+	width: 440px;
+	height: auto;
+	border: groove white;
+	margin: 12px 15px;
+}
+.image img:hover{
+	filter: grayscale(50%);
+	transform: scale(1.1);  /* (transition type slightly zooms the image) */
+}
+
+p.text{
+	font-family: arial;
+	font-size: 32pt;
+	color: white;
+	text-align: center;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+

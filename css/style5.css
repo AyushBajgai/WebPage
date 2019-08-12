@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+body{
+	background:url(../Images/wall.jpg);
+	height: auto;
+	background-size: cover;
+}
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+	position: relative;
+	top:11px;
+}
+ul{
+	list-style:none;
+	float: right;
+	margin-top:34px;
+
+}
+
+ul li{
+	display: inline;
+}
+
+ul li a{
+	text-decoration: none;						/* (removes underline) */
+	color: white;
+	margin: 5px;								/* (gaps between boxes) */
+	border: groove white;
+	border-radius: 12px;
+	padding: 7px 20px;							/* (top-bottom and left-right) */
+	transition: 0.5s;
+	font-size: 18pt;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;							/* (link color black) */
+}
+h1{
+	color: white;
+	font-size: 48pt;
+	position: relative;
+	left: 12%;
+	top:200px;
+}
+p{
+	color: white;
+	font-size: 14pt;
+}
+.lorem{
+	text-align: justify;
+	margin: 265px;
+	margin-right: 565px;
+	margin-left: 125px;
+	padding: 0;
+}

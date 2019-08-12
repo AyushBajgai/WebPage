@@ -1,0 +1,87 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Times;
+}
+
+header{
+	background-image:url(../Images/backg.jpg);  	/* (../ means go backward and onto folder) */
+	height: 100vh;
+	background-size:cover;						/* (fits the image) */
+	background-position: center;
+}
+
+ul{
+	list-style:none;
+	float: right;
+	margin-top:34px;
+
+}
+
+ul li{
+	display: inline;
+}
+
+ul li a{
+	text-decoration: none;						/* (removes underline) */
+	color: white;
+	margin: 5px;								/* (gaps between boxes) */
+	border: groove white;
+	border-radius: 12px;
+	padding: 7px 20px;							/* (top-bottom and left-right) */
+	transition: 0.5s;
+	font-size: 18pt;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;							/* (link color black) */
+}
+
+.logo img{							/* (logo class of img tag) */
+	float: left;
+	width: 200px;
+	height: auto;
+	position: relative;
+	top:11px;
+}
+
+.txt p{
+	font-family: Arial;
+	font-size: 42pt;
+	color: white;
+	margin: 0;
+	position: absolute;				/* (Ceneter attributes from here) */
+	text-align:center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.button{
+	position: absolute;				/* (Ceneter attributes from here) */
+	text-align:center;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bt{
+	border: solid;
+	color: white;
+	padding: 9px 30px;
+	text-decoration:none;
+	font-size: 18pt;
+}
+
+.bt:hover{
+	background-color:white;
+	color: black
+}
+/*
+.arrow{
+	padding: 0;
+	position: absolute;
+	top:330px;
+	left:400px;
+}
