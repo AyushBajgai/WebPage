@@ -59,23 +59,58 @@ form{
 	position: relative;
 	left: 570px;
 }
-.ctform{
-	width: 650px;
+.textBox{
+	position: relative;
+	width: 650px; 
 	background:transparent;
 	border: none;				/* (removes border of form box) */
 	border-bottom: 1px solid;	/* (visible solid line at the bottom) */
 	border-color: white;
 	font-size: 12pt;
 	margin-bottom: 20px;
+	top: 40px;
+    left: 465px;
 }
 input{
+	width: 650px;
+	background:transparent;
 	height: 50px;
+	color: white;
+	font-size:14pt;
+	padding: 0;
+	border:none;
+	outline: none;
 }
 textarea{
 	height: 60px;
+	width: 650px;
 	font-family: arial;
+	color: white;
+	font-size:14pt;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid;
+	outline: none;
+	position: absolute;			/* (Ceneter attributes from here) */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
 }
 
 .ctform_submit{
-	border-color: transparent;
+	background: transparent;
+	font-size: 18pt;
+	border-radius: 12px;
+	border-color: gray;
+	color: white;
+	padding: 7px 20px;				
+	margin-top: 150px;
+	position: relative;
+	left:29%;
+	text-align: center;
+}
+.ctform_submit:hover{
+	background-color: white;
+	color: black;							
 }
